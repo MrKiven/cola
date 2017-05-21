@@ -1,0 +1,9 @@
+[package]
+name = "idgen"
+version = "0.1.0"
+authors = ["kiven <kiven.mr@gmail.com>"]
+
+[dependencies]
+hostname = "0.1.3"
+ascii = "0.8"
+libc = "0.2.23"
