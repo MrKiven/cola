@@ -7,3 +7,4 @@ authors = ["kiven <kiven.mr@gmail.com>"]
 hostname = "0.1.3"
 ascii = "0.8"
 libc = "0.2.23"
+rand = "0.3.15"
