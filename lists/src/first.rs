@@ -43,10 +43,6 @@ impl List {
     }
 }
 
-pub trait Drop {
-    fn drop(&mut self);
-}
-
 impl Drop for List {
     fn drop(&mut self) {
         let mut cur_link = mem::replace(&mut self.head, Link::Empty);
