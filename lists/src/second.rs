@@ -20,7 +20,8 @@ pub struct IterMut<'a, T: 'a> {
 }
 
 impl<T> List<T> {
-pub fn new() -> Self {
+
+    pub fn new() -> Self {
         List { head: None }
     }
 

@@ -22,12 +22,8 @@ pub struct IterMut<'a, T: 'a> {
     next: Option<&'a mut Node<T>>,
 }
 
-
-
-
-
-
 impl<T> List<T> {
+
     pub fn new() -> Self {
         List { head: None, tail: ptr::null_mut() }
     }

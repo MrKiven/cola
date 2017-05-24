@@ -15,10 +15,8 @@ pub struct Iter<'a, T:'a> {
     next: Option<&'a Node<T>>,
 }
 
-
-
-
 impl<T> List<T> {
+
     pub fn new() -> Self {
         List { head: None }
     }
@@ -44,6 +42,7 @@ impl<T> List<T> {
 }
 
 impl<'a, T> Iterator for Iter<'a, T> {
+
     type Item = &'a T;
 
     fn next(&mut self) -> Option<Self::Item> {
