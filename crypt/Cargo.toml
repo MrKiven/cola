@@ -1,0 +1,7 @@
+[package]
+name = "crypt"
+version = "0.1.0"
+authors = ["kiven <kiven.mr@gmail.com>"]
+
+[dependencies]
+rustc-serialize = "^0.3.24"
